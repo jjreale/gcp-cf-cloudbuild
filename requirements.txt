@@ -1,1 +1,4 @@
-mysql-connector-python==8.0.32
+mysql-connector-python>=8.0.32
+google-auth
+python-dateutil
+google-api-python-client
