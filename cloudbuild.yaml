@@ -1,3 +1,3 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'cf-test-cloudbuild', '--region=europe-west1', '--runtime=python311', '--entry-point=cf-test-cloudbuild', '--trigger-http', '--source=.']
+  args: ['functions', 'deploy', 'cf-test-cloudbuild', '--gen1', '--region=europe-west1', '--runtime=python311', '--entry-point=cf-test-cloudbuild', '--trigger-http', '--source=.']
